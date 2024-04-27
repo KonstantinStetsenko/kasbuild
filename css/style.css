@@ -1,0 +1,153 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.logo-block{
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+.logo-KS{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 40px;
+line-height: 117%;
+letter-spacing: -0.12em;
+text-align: center;
+color: #ff7a00;
+margin: auto;
+}
+.conteiner-logo-dekor{
+border: 1px solid #fff;
+width: 52px;
+height: 52px;
+}
+.logo-build{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+margin-top: auto;
+margin-bottom: auto;
+}
+.hero-section{
+    background-image:url(/images/mobile/hero-mobile-x1.jpg);
+    min-height: 594px;
+    min-width: 320px;
+    background-size: cover;
+    position: relative;
+    z-index: -999;
+    padding-top: 180px;
+    padding-bottom: 36px;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.5449581199667367) 0%, rgba(0,0,0,0) 53%);
+mix-blend-mode: plus-darker;
+/* min-width: 320px; */
+}
+.conteiner{
+    margin: 0;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icon-social{
+    display: flex;
+    gap: 6px;
+    fill: #fff;
+    
+}
+.conteiner-mobile{
+    display: flex;
+}
+.menu-header{
+    display: flex;
+}
+.icon-social-conteiner{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 46px;
+}
+.hamburger-menu{
+padding: 0;
+  border: none;
+  background-color: transparent;
+ margin-top: auto;
+ margin-bottom: auto;
+ 
+}
+.title-h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 128px;
+}
+.contact{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #fff;
+}
+.contact-block{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.obout-h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+.obout-us-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+font-size: 16px;
+line-height: 150%;
+color: #000;
+}
+.obout-section{
+    border-radius: 8px;
+width: 300px;
+height: 764px;
+background: #d9d9d9;
+margin-top: 16px;
+padding: 18px 7px 18px 7px;
+text-align: center;
+}
+.obout-us-p{
+    text-align: left;
+}
