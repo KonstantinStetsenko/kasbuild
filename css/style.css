@@ -50,7 +50,7 @@ margin-top: auto;
 margin-bottom: auto;
 }
 .hero-section{
-    background-image:url(./images/mobile/hero-mobile-x1.jpg);
+    background-image:url(../images/mobile/hero-mobile-x1.jpg);
     min-height: 594px;
     min-width: 320px;
     background-size: cover;
