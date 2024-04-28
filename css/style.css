@@ -19,6 +19,9 @@ p {
 a {
   text-decoration: none;
 }
+img{
+    display: block;
+}
 
 .logo-block{
     display: flex;
@@ -129,8 +132,9 @@ padding: 0;
     font-weight: 400;
     font-size: 20px;
     color: #000;
-    margin-top: 18px;
-    margin-bottom: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+
 }
 .obout-us-p{
     font-family: "Roboto", sans-serif;
@@ -138,22 +142,128 @@ padding: 0;
 font-size: 16px;
 line-height: 150%;
 color: #000;
+text-align: left;
+padding-top: 20px;
 }
 .obout-section{
     border-radius: 8px;
 width: 300px;
-height: 764px;
+
 background: #d9d9d9;
 margin-top: 16px;
 padding: 18px 7px 18px 7px;
 text-align: center;
 width: 100%;
 }
-.obout-us-p{
-    text-align: left;
-    padding-top: 20px;
-}
-.obout-us-picture{
 
+.obout-us-picture{
+    margin-top: 20px;
     width: 100%;
+}
+.our-advantage{
+display: flex;
+flex-direction: column;
+gap: 28px;
+align-items: center;
+}
+.advantage-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    width: 170px;
+    padding-top: 8px;
+}
+.list-advantage{
+text-align: center;
+}
+.conteiner-advantage{
+    margin-top: 20px;
+}
+.services-p{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 22px;
+text-align: center;
+color: #000;
+width: 255px;
+margin-top: 18px;
+margin-bottom: 18px;
+margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.Our-services{
+display: flex;
+flex-direction: column;
+gap: 24px;
+align-items: center;
+}
+.list-services{
+    text-align: center;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.25);
+background: #f8f8f8;
+border-radius: 8px;
+width: 300px;
+height: 384px;
+
+}
+.Our-services-picture{
+    border-radius: 6px 6px 0 0
+}
+.conteiner-Our-services{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.footer{
+    background: #242530;
+    padding-top: 35px;
+    padding-bottom: 76px;
+}
+.conteiner-logo{
+    width: 212px;
+}
+.footer-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 25px;
+}
+.title-contact{
+    font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-size: 14px;
+color: #fff;
+}
+.contact-footer{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #fff;
+text-decoration: none;
+}
+.conteiner-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-contact{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:212px ;
+}
+.contact-block{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+.icon-social-footer{
+
 }
