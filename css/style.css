@@ -152,3 +152,6 @@ width: 100%;
 .obout-us-p{
     text-align: left;
 }
+.obout-us-picture{
+object-fit: scale-down;
+}
