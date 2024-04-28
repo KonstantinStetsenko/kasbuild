@@ -151,7 +151,9 @@ width: 100%;
 }
 .obout-us-p{
     text-align: left;
+    padding-top: 20px;
 }
 .obout-us-picture{
-object-fit: scale-down;
+
+    width: 100%;
 }
