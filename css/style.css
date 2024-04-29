@@ -213,11 +213,17 @@ text-align: center;
     .conteiner-advantage-teblet-desktop{
 display: none;
     }
+    .conteiner-advantage{
+        display: block;
+    }
 }
-@media (min-width: 768px) and (min-width: 1440px){
+@media (min-width: 768px){
     .conteiner-advantage{
         display: none;
     }
+    .conteiner-advantage-teblet-desktop{
+        display: flex;
+            }
 }
 .services-p{
 font-family: "Roboto", sans-serif;
