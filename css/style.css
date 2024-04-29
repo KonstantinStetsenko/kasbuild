@@ -52,6 +52,7 @@ color: #fff;
 margin-top: auto;
 margin-bottom: auto;
 }
+/* -----------------HERO---------------------- */
 .hero-section{
     background-image:url(../images/mobile/hero-mobile-x1.jpg);
     min-height: 594px;
@@ -63,6 +64,32 @@ margin-bottom: auto;
     padding-bottom: 36px;
     height: 100vh;
 }
+@media screen and (-webkit-min-device-pixel-ratio:2),(min-resolution: 192dpi){
+    .hero-section{
+    background-image:url(../images/mobile/hero-mobile-x2.jpg);
+    }
+  }
+@media (min-width: 768px){
+    .hero-section{
+        background-image:url(../images/tablet/hero-tablet-x1.jpg);
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:2),(min-resolution: 192dpi){
+        .hero-section{
+        background-image:url(../images/tablet/hero-tablet-x2.jpg);
+        }
+      }
+}
+@media (min-width: 1440px){
+    .hero-section{
+        background-image:url(../images/desktop/hero-desktop-x1.jpg);
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:2),(min-resolution: 192dpi){
+        .hero-section{
+        background-image:url(../images/desktop/hero-desktop-x2.jpg);
+        }
+      }
+}
+/* -------------------------------------------------------------------- */
 .header{
     display: flex;
     position: absolute;
@@ -166,6 +193,7 @@ flex-direction: column;
 gap: 28px;
 align-items: center;
 }
+
 .advantage-p{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -180,6 +208,16 @@ text-align: center;
 }
 .conteiner-advantage{
     margin-top: 20px;
+}
+@media (min-width: 320px){
+    .conteiner-advantage-teblet-desktop{
+display: none;
+    }
+}
+@media (min-width: 768px) and (min-width: 1440px){
+    .conteiner-advantage{
+        display: none;
+    }
 }
 .services-p{
 font-family: "Roboto", sans-serif;
